@@ -20,3 +20,6 @@
 - cmsis-dap
 - sh1106 0.96'' oled
 - onboard led linked to pc0
+
+# where is the driver for sh1106
+- [this is the link](https://github.com/afiskon/stm32-ssd1306)
