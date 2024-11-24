@@ -8,10 +8,10 @@
   - sometimes i always forget to commit🤣🤣 
 - configs for initialization
   - gpios
-  !(gpios)[images_for_stm32cubemx_init/gpios.png]
+  ![gpios](images_for_stm32cubemx_init/gpios.png)
   - usart
-  !(usart_init)[images_for_stm32cubemx_init/usart_init.png]
-  - spi
-  !(spi_init)[images_for_stm32cubemx_init/spi_init.png]
-  - pinout_overall_view 
-  !(pinout_overall_view)[images_for_stm32cubemx_init/pinout_overall_view.png]
+  ![usart_init](images_for_stm32cubemx_init/usart_init.png)
+  - usart
+  ![spi_init](images_for_stm32cubemx_init/spi_init.png)
+  - overall
+  ![pinout_overall_view](images_for_stm32cubemx_init/pinout_overall_view.png)
