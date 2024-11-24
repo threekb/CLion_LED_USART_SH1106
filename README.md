@@ -15,3 +15,8 @@
   ![spi_init](images_for_stm32cubemx_init/spi_init.png)
   - overall
   ![pinout_overall_view](images_for_stm32cubemx_init/pinout_overall_view.png)
+# chips and peripherals 
+- stm32f407vet6
+- cmsis-dap
+- sh1106 0.96'' oled
+- onboard led linked to pc0
