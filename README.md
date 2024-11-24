@@ -5,7 +5,7 @@
   - USART
   - SH1106
 - just for testing 
-  - sometimes i always forget to commit🤣🤣 
+  - sometimes I always forget to commit🤣🤣 
 - configs for initialization
   - gpios
   ![gpios](images_for_stm32cubemx_init/gpios.png)
