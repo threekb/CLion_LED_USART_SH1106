@@ -26,3 +26,9 @@
 > Maybe you will find the driver for sh1106 in my project is not the completely same 
 as the one I provided in the link above, that is because I only modified the function name such as `SSD1306_Init()` to
 `SH1106_Init()`, and that is all I modified. Hope this will not annoy you.
+
+# toolchain
+- [arm-gnu](https://developer.arm.com/-/media/Files/downloads/gnu/13.3.rel1/binrel/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi.zip)
+- [msys2](https://www.msys2.org/)
+  - mingw64
+  - openocd
