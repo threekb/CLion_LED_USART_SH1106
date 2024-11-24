@@ -104,7 +104,7 @@ int main(void) {
         for (uint8_t i = 0; i < chiikawaallArray_LEN; i++) {
             SH1106_Fill(Black);
             SH1106_DrawBitmap(0, 0, chiikawaallArray[i], 128, 64, White);
-            HAL_GPIO_TogglePin(LED_GPIO_Portm LED_Pin);
+            HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
             HAL_Delay(69);
             SH1106_UpdateScreen();
             printf("this is the NO. %d frame for chiikawaa\r\n", i);
