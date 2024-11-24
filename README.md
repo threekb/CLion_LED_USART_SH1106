@@ -4,3 +4,5 @@
   - LED
   - USART
   - SH1106
+- just for testing 
+  - sometimes i always forget to commit🤣🤣 
