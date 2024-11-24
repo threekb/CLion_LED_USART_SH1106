@@ -181,8 +181,6 @@ Discarded input sections
                 0x00000000       0x2c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .text.HAL_Delay
-                0x00000000       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000        0xe CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -1203,7 +1201,7 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x08000188     0x156c
+.text           0x08000188     0x1580
                 0x08000188                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x30 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
@@ -1229,313 +1227,316 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  .text.SystemClock_Config
                 0x08000338       0xa4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
                 0x08000338                SystemClock_Config
- .text.main     0x080003dc       0x40 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
+ .text.main     0x080003dc       0x2c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
                 0x080003dc                main
  .text.MX_SPI1_Init
-                0x0800041c       0x44 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
-                0x0800041c                MX_SPI1_Init
+                0x08000408       0x44 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+                0x08000408                MX_SPI1_Init
  .text.HAL_SPI_MspInit
-                0x08000460       0x70 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
-                0x08000460                HAL_SPI_MspInit
+                0x0800044c       0x70 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+                0x0800044c                HAL_SPI_MspInit
  .text.HAL_MspInit
-                0x080004d0       0x38 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x080004d0                HAL_MspInit
+                0x080004bc       0x38 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x080004bc                HAL_MspInit
  .text.NMI_Handler
-                0x08000508        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000508                NMI_Handler
+                0x080004f4        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004f4                NMI_Handler
  .text.HardFault_Handler
-                0x0800050a        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800050a                HardFault_Handler
+                0x080004f6        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004f6                HardFault_Handler
  .text.MemManage_Handler
-                0x0800050c        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800050c                MemManage_Handler
+                0x080004f8        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004f8                MemManage_Handler
  .text.BusFault_Handler
-                0x0800050e        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800050e                BusFault_Handler
+                0x080004fa        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004fa                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000510        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000510                UsageFault_Handler
+                0x080004fc        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004fc                UsageFault_Handler
  .text.SVC_Handler
-                0x08000512        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000512                SVC_Handler
+                0x080004fe        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080004fe                SVC_Handler
  .text.DebugMon_Handler
-                0x08000514        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000514                DebugMon_Handler
+                0x08000500        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08000500                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000516        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000516                PendSV_Handler
+                0x08000502        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08000502                PendSV_Handler
  .text.SysTick_Handler
-                0x08000518        0x8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08000518                SysTick_Handler
+                0x08000504        0x8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08000504                SysTick_Handler
  .text.SystemInit
-                0x08000520        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08000520                SystemInit
- *fill*         0x08000522        0x2 
+                0x0800050c        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0800050c                SystemInit
+ *fill*         0x0800050e        0x2 
  .text.MX_USART1_UART_Init
-                0x08000524       0x34 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
-                0x08000524                MX_USART1_UART_Init
+                0x08000510       0x34 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+                0x08000510                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08000558       0x74 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
-                0x08000558                HAL_UART_MspInit
+                0x08000544       0x74 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+                0x08000544                HAL_UART_MspInit
  .text.Reset_Handler
-                0x080005cc       0x50 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
-                0x080005cc                Reset_Handler
+                0x080005b8       0x50 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+                0x080005b8                Reset_Handler
  .text.Default_Handler
-                0x0800061c        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
-                0x0800061c                RTC_Alarm_IRQHandler
-                0x0800061c                HASH_RNG_IRQHandler
-                0x0800061c                EXTI2_IRQHandler
-                0x0800061c                TIM8_CC_IRQHandler
-                0x0800061c                TIM1_CC_IRQHandler
-                0x0800061c                DMA2_Stream5_IRQHandler
-                0x0800061c                DMA1_Stream5_IRQHandler
-                0x0800061c                PVD_IRQHandler
-                0x0800061c                SDIO_IRQHandler
-                0x0800061c                TAMP_STAMP_IRQHandler
-                0x0800061c                CAN2_RX1_IRQHandler
-                0x0800061c                EXTI3_IRQHandler
-                0x0800061c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0800061c                TIM1_UP_TIM10_IRQHandler
-                0x0800061c                TIM8_UP_TIM13_IRQHandler
-                0x0800061c                I2C3_ER_IRQHandler
-                0x0800061c                EXTI0_IRQHandler
-                0x0800061c                I2C2_EV_IRQHandler
-                0x0800061c                DMA1_Stream2_IRQHandler
-                0x0800061c                CAN1_RX0_IRQHandler
-                0x0800061c                FPU_IRQHandler
-                0x0800061c                OTG_HS_WKUP_IRQHandler
-                0x0800061c                CAN2_SCE_IRQHandler
-                0x0800061c                DMA2_Stream2_IRQHandler
-                0x0800061c                SPI1_IRQHandler
-                0x0800061c                TIM6_DAC_IRQHandler
-                0x0800061c                TIM1_BRK_TIM9_IRQHandler
-                0x0800061c                DCMI_IRQHandler
-                0x0800061c                CAN2_RX0_IRQHandler
-                0x0800061c                DMA2_Stream3_IRQHandler
-                0x0800061c                USART6_IRQHandler
-                0x0800061c                USART3_IRQHandler
-                0x0800061c                CAN1_RX1_IRQHandler
-                0x0800061c                UART5_IRQHandler
-                0x0800061c                DMA2_Stream0_IRQHandler
-                0x0800061c                TIM4_IRQHandler
-                0x0800061c                I2C1_EV_IRQHandler
-                0x0800061c                DMA1_Stream6_IRQHandler
-                0x0800061c                DMA1_Stream1_IRQHandler
-                0x0800061c                UART4_IRQHandler
-                0x0800061c                TIM3_IRQHandler
-                0x0800061c                RCC_IRQHandler
-                0x0800061c                TIM8_BRK_TIM12_IRQHandler
-                0x0800061c                Default_Handler
-                0x0800061c                EXTI15_10_IRQHandler
-                0x0800061c                ADC_IRQHandler
-                0x0800061c                DMA1_Stream7_IRQHandler
-                0x0800061c                TIM7_IRQHandler
-                0x0800061c                CAN2_TX_IRQHandler
-                0x0800061c                TIM5_IRQHandler
-                0x0800061c                DMA2_Stream7_IRQHandler
-                0x0800061c                I2C3_EV_IRQHandler
-                0x0800061c                EXTI9_5_IRQHandler
-                0x0800061c                RTC_WKUP_IRQHandler
-                0x0800061c                ETH_WKUP_IRQHandler
-                0x0800061c                SPI2_IRQHandler
-                0x0800061c                OTG_HS_EP1_IN_IRQHandler
-                0x0800061c                DMA1_Stream0_IRQHandler
-                0x0800061c                CAN1_TX_IRQHandler
-                0x0800061c                EXTI4_IRQHandler
-                0x0800061c                FSMC_IRQHandler
-                0x0800061c                ETH_IRQHandler
-                0x0800061c                OTG_HS_EP1_OUT_IRQHandler
-                0x0800061c                WWDG_IRQHandler
-                0x0800061c                TIM2_IRQHandler
-                0x0800061c                OTG_FS_WKUP_IRQHandler
-                0x0800061c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0800061c                OTG_HS_IRQHandler
-                0x0800061c                EXTI1_IRQHandler
-                0x0800061c                USART2_IRQHandler
-                0x0800061c                I2C2_ER_IRQHandler
-                0x0800061c                DMA2_Stream1_IRQHandler
-                0x0800061c                CAN1_SCE_IRQHandler
-                0x0800061c                FLASH_IRQHandler
-                0x0800061c                DMA2_Stream4_IRQHandler
-                0x0800061c                USART1_IRQHandler
-                0x0800061c                OTG_FS_IRQHandler
-                0x0800061c                SPI3_IRQHandler
-                0x0800061c                DMA1_Stream4_IRQHandler
-                0x0800061c                I2C1_ER_IRQHandler
-                0x0800061c                DMA2_Stream6_IRQHandler
-                0x0800061c                DMA1_Stream3_IRQHandler
- *fill*         0x0800061e        0x2 
+                0x08000608        0x2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+                0x08000608                RTC_Alarm_IRQHandler
+                0x08000608                HASH_RNG_IRQHandler
+                0x08000608                EXTI2_IRQHandler
+                0x08000608                TIM8_CC_IRQHandler
+                0x08000608                TIM1_CC_IRQHandler
+                0x08000608                DMA2_Stream5_IRQHandler
+                0x08000608                DMA1_Stream5_IRQHandler
+                0x08000608                PVD_IRQHandler
+                0x08000608                SDIO_IRQHandler
+                0x08000608                TAMP_STAMP_IRQHandler
+                0x08000608                CAN2_RX1_IRQHandler
+                0x08000608                EXTI3_IRQHandler
+                0x08000608                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000608                TIM1_UP_TIM10_IRQHandler
+                0x08000608                TIM8_UP_TIM13_IRQHandler
+                0x08000608                I2C3_ER_IRQHandler
+                0x08000608                EXTI0_IRQHandler
+                0x08000608                I2C2_EV_IRQHandler
+                0x08000608                DMA1_Stream2_IRQHandler
+                0x08000608                CAN1_RX0_IRQHandler
+                0x08000608                FPU_IRQHandler
+                0x08000608                OTG_HS_WKUP_IRQHandler
+                0x08000608                CAN2_SCE_IRQHandler
+                0x08000608                DMA2_Stream2_IRQHandler
+                0x08000608                SPI1_IRQHandler
+                0x08000608                TIM6_DAC_IRQHandler
+                0x08000608                TIM1_BRK_TIM9_IRQHandler
+                0x08000608                DCMI_IRQHandler
+                0x08000608                CAN2_RX0_IRQHandler
+                0x08000608                DMA2_Stream3_IRQHandler
+                0x08000608                USART6_IRQHandler
+                0x08000608                USART3_IRQHandler
+                0x08000608                CAN1_RX1_IRQHandler
+                0x08000608                UART5_IRQHandler
+                0x08000608                DMA2_Stream0_IRQHandler
+                0x08000608                TIM4_IRQHandler
+                0x08000608                I2C1_EV_IRQHandler
+                0x08000608                DMA1_Stream6_IRQHandler
+                0x08000608                DMA1_Stream1_IRQHandler
+                0x08000608                UART4_IRQHandler
+                0x08000608                TIM3_IRQHandler
+                0x08000608                RCC_IRQHandler
+                0x08000608                TIM8_BRK_TIM12_IRQHandler
+                0x08000608                Default_Handler
+                0x08000608                EXTI15_10_IRQHandler
+                0x08000608                ADC_IRQHandler
+                0x08000608                DMA1_Stream7_IRQHandler
+                0x08000608                TIM7_IRQHandler
+                0x08000608                CAN2_TX_IRQHandler
+                0x08000608                TIM5_IRQHandler
+                0x08000608                DMA2_Stream7_IRQHandler
+                0x08000608                I2C3_EV_IRQHandler
+                0x08000608                EXTI9_5_IRQHandler
+                0x08000608                RTC_WKUP_IRQHandler
+                0x08000608                ETH_WKUP_IRQHandler
+                0x08000608                SPI2_IRQHandler
+                0x08000608                OTG_HS_EP1_IN_IRQHandler
+                0x08000608                DMA1_Stream0_IRQHandler
+                0x08000608                CAN1_TX_IRQHandler
+                0x08000608                EXTI4_IRQHandler
+                0x08000608                FSMC_IRQHandler
+                0x08000608                ETH_IRQHandler
+                0x08000608                OTG_HS_EP1_OUT_IRQHandler
+                0x08000608                WWDG_IRQHandler
+                0x08000608                TIM2_IRQHandler
+                0x08000608                OTG_FS_WKUP_IRQHandler
+                0x08000608                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000608                OTG_HS_IRQHandler
+                0x08000608                EXTI1_IRQHandler
+                0x08000608                USART2_IRQHandler
+                0x08000608                I2C2_ER_IRQHandler
+                0x08000608                DMA2_Stream1_IRQHandler
+                0x08000608                CAN1_SCE_IRQHandler
+                0x08000608                FLASH_IRQHandler
+                0x08000608                DMA2_Stream4_IRQHandler
+                0x08000608                USART1_IRQHandler
+                0x08000608                OTG_FS_IRQHandler
+                0x08000608                SPI3_IRQHandler
+                0x08000608                DMA1_Stream4_IRQHandler
+                0x08000608                I2C1_ER_IRQHandler
+                0x08000608                DMA2_Stream6_IRQHandler
+                0x08000608                DMA1_Stream3_IRQHandler
+ *fill*         0x0800060a        0x2 
  .text.HAL_InitTick
-                0x08000620       0x4c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08000620                HAL_InitTick
+                0x0800060c       0x4c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800060c                HAL_InitTick
  .text.HAL_Init
-                0x0800066c       0x34 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800066c                HAL_Init
+                0x08000658       0x34 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08000658                HAL_Init
  .text.HAL_IncTick
-                0x080006a0       0x18 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080006a0                HAL_IncTick
+                0x0800068c       0x18 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800068c                HAL_IncTick
  .text.HAL_GetTick
-                0x080006b8        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080006b8                HAL_GetTick
+                0x080006a4        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080006a4                HAL_GetTick
+ .text.HAL_Delay
+                0x080006b0       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080006b0                HAL_Delay
  .text.__NVIC_SetPriority
-                0x080006c4       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080006d8       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080006ec       0x3e CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- *fill*         0x0800072a        0x2 
+                0x08000700       0x3e CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ *fill*         0x0800073e        0x2 
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800072c       0x24 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800072c                HAL_NVIC_SetPriorityGrouping
+                0x08000740       0x24 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000740                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000750       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000750                HAL_NVIC_SetPriority
+                0x08000764       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000764                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08000770       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000770                HAL_SYSTICK_Config
+                0x08000784       0x28 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000784                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000798      0x1f4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000798                HAL_GPIO_Init
+                0x080007ac      0x1f4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080007ac                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0800098c        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0800098c                HAL_GPIO_WritePin
+                0x080009a0        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080009a0                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08000998       0x12 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000998                HAL_GPIO_TogglePin
- *fill*         0x080009aa        0x2 
+                0x080009ac       0x12 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x080009ac                HAL_GPIO_TogglePin
+ *fill*         0x080009be        0x2 
  .text.HAL_RCC_OscConfig
-                0x080009ac      0x3f8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080009ac                HAL_RCC_OscConfig
+                0x080009c0      0x3f8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080009c0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000da4       0xdc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000da4                HAL_RCC_GetSysClockFreq
+                0x08000db8       0xdc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000db8                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08000e80      0x160 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000e80                HAL_RCC_ClockConfig
+                0x08000e94      0x160 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000e94                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08000fe0        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000fe0                HAL_RCC_GetHCLKFreq
+                0x08000ff4        0xc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000ff4                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08000fec       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000fec                HAL_RCC_GetPCLK1Freq
+                0x08001000       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001000                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0800100c       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800100c                HAL_RCC_GetPCLK2Freq
+                0x08001020       0x20 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001020                HAL_RCC_GetPCLK2Freq
  .text.HAL_SPI_Init
-                0x0800102c       0xbe CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                0x0800102c                HAL_SPI_Init
- *fill*         0x080010ea        0x2 
+                0x08001040       0xbe CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                0x08001040                HAL_SPI_Init
+ *fill*         0x080010fe        0x2 
  .text.UART_SetConfig
-                0x080010ec      0x110 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001100      0x110 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x080011fc       0x60 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x080011fc                HAL_UART_Init
+                0x08001210       0x60 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001210                HAL_UART_Init
  .text.__udivmoddi4
-                0x0800125c      0x2bc E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x0800125c                __udivmoddi4
- .text.memset   0x08001518       0xa4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
-                0x08001518                memset
+                0x08001270      0x2bc E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08001270                __udivmoddi4
+ .text.memset   0x0800152c       0xa4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
+                0x0800152c                memset
  .text.__libc_init_array
-                0x080015bc       0x50 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
-                0x080015bc                __libc_init_array
+                0x080015d0       0x50 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
+                0x080015d0                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x0800160c        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x0800160c                __retarget_lock_acquire_recursive
+                0x08001620        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x08001620                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08001610        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x08001610                __retarget_lock_release_recursive
+                0x08001624        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x08001624                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08001614       0x14 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x08001628        0xc E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
-                0x08001628                atexit
+                0x08001628       0x14 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x0800163c        0xc E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
+                0x0800163c                atexit
  .text.__libc_fini_array
-                0x08001634       0x28 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
-                0x08001634                __libc_fini_array
+                0x08001648       0x28 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
+                0x08001648                __libc_fini_array
  .text.__register_exitproc
-                0x0800165c       0x80 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x0800165c                __register_exitproc
+                0x08001670       0x80 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08001670                __register_exitproc
  *(.glue_7)
- .glue_7        0x080016dc        0x0 linker stubs
+ .glue_7        0x080016f0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080016dc        0x0 linker stubs
+ .glue_7t       0x080016f0        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080016dc        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080016f0        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x080016dc        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
-                0x080016dc                _init
- .init          0x080016e0        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080016f0        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x080016f0                _init
+ .init          0x080016f4        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x080016e8        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
-                0x080016e8                _fini
- .fini          0x080016ec        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
-                0x080016f4                        . = ALIGN (0x4)
-                0x080016f4                        _etext = .
+ .fini          0x080016fc        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x080016fc                _fini
+ .fini          0x08001700        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08001708                        . = ALIGN (0x4)
+                0x08001708                        _etext = .
 
-.vfp11_veneer   0x080016f4        0x0
- .vfp11_veneer  0x080016f4        0x0 linker stubs
+.vfp11_veneer   0x08001708        0x0
+ .vfp11_veneer  0x08001708        0x0 linker stubs
 
-.v4_bx          0x080016f4        0x0
- .v4_bx         0x080016f4        0x0 linker stubs
+.v4_bx          0x08001708        0x0
+ .v4_bx         0x08001708        0x0 linker stubs
 
-.iplt           0x080016f4        0x0
- .iplt          0x080016f4        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08001708        0x0
+ .iplt          0x08001708        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x080016f4       0x18
-                0x080016f4                        . = ALIGN (0x4)
+.rodata         0x08001708       0x18
+                0x08001708                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.APBPrescTable
-                0x080016f4        0x8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x080016f4                APBPrescTable
+                0x08001708        0x8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08001708                APBPrescTable
  .rodata.AHBPrescTable
-                0x080016fc       0x10 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x080016fc                AHBPrescTable
-                0x0800170c                        . = ALIGN (0x4)
+                0x08001710       0x10 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08001710                AHBPrescTable
+                0x08001720                        . = ALIGN (0x4)
 
-.ARM.extab      0x0800170c        0x0
-                0x0800170c                        . = ALIGN (0x4)
+.ARM.extab      0x08001720        0x0
+                0x08001720                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800170c                        . = ALIGN (0x4)
+                0x08001720                        . = ALIGN (0x4)
 
-.ARM            0x0800170c        0x8
-                0x0800170c                        . = ALIGN (0x4)
-                0x0800170c                        __exidx_start = .
+.ARM            0x08001720        0x8
+                0x08001720                        . = ALIGN (0x4)
+                0x08001720                        __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.__udivmoddi4
-                0x0800170c        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x08001714                        __exidx_end = .
-                0x08001714                        . = ALIGN (0x4)
+                0x08001720        0x8 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08001728                        __exidx_end = .
+                0x08001728                        . = ALIGN (0x4)
 
-.preinit_array  0x08001714        0x0
-                0x08001714                        . = ALIGN (0x4)
-                0x08001714                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08001728        0x0
+                0x08001728                        . = ALIGN (0x4)
+                0x08001728                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08001714                        PROVIDE (__preinit_array_end = .)
-                0x08001714                        . = ALIGN (0x4)
+                0x08001728                        PROVIDE (__preinit_array_end = .)
+                0x08001728                        . = ALIGN (0x4)
 
-.init_array     0x08001714        0x8
-                0x08001714                        . = ALIGN (0x4)
-                0x08001714                        PROVIDE (__init_array_start = .)
+.init_array     0x08001728        0x8
+                0x08001728                        . = ALIGN (0x4)
+                0x08001728                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08001714        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x08001728        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08001718        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800171c                        PROVIDE (__init_array_end = .)
-                0x0800171c                        . = ALIGN (0x4)
+ .init_array    0x0800172c        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08001730                        PROVIDE (__init_array_end = .)
+                0x08001730                        . = ALIGN (0x4)
 
-.fini_array     0x0800171c        0x4
-                0x0800171c                        . = ALIGN (0x4)
-                0x0800171c                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08001730        0x4
+                0x08001730                        . = ALIGN (0x4)
+                0x08001730                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800171c        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08001720                        PROVIDE (__fini_array_end = .)
-                0x08001720                        . = ALIGN (0x4)
-                0x08001720                        _sidata = LOADADDR (.data)
+ .fini_array    0x08001730        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08001734                        PROVIDE (__fini_array_end = .)
+                0x08001734                        . = ALIGN (0x4)
+                0x08001734                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08001720        0x0
- .rel.iplt      0x08001720        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08001734        0x0
+ .rel.iplt      0x08001734        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x20000000       0x10 load address 0x08001720
+.data           0x20000000       0x10 load address 0x08001734
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -1557,19 +1558,19 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  *(.RamFunc*)
                 0x20000010                        . = ALIGN (0x4)
                 0x20000010                        _edata = .
-                0x08001730                        _siccmram = LOADADDR (.ccmram)
+                0x08001744                        _siccmram = LOADADDR (.ccmram)
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x08001730
+                0x20000010        0x0 load address 0x08001744
  .tm_clone_table
                 0x20000010        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x08001730
+.igot.plt       0x20000010        0x0 load address 0x08001744
  .igot.plt      0x20000010        0x0 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08001730
+.ccmram         0x10000000        0x0 load address 0x08001744
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        _sccmram = .
  *(.ccmram)
@@ -1578,7 +1579,7 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x10000000                        _eccmram = .
                 0x10000000                        . = ALIGN (0x4)
 
-.bss            0x20000010      0x25c
+.bss            0x20000010      0x258
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.bss)
@@ -1587,40 +1588,36 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x20000010        0x1 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  *fill*         0x20000011        0x3 
  .bss.object.0  0x20000014       0x18 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
- .bss.count     0x2000002c        0x1 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
-                0x2000002c                count
- *fill*         0x2000002d        0x3 
- .bss.hspi1     0x20000030       0x58 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
-                0x20000030                hspi1
- .bss.huart1    0x20000088       0x48 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
-                0x20000088                huart1
- .bss.uwTick    0x200000d0        0x4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x200000d0                uwTick
+ .bss.hspi1     0x2000002c       0x58 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+                0x2000002c                hspi1
+ .bss.huart1    0x20000084       0x48 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+                0x20000084                huart1
+ .bss.uwTick    0x200000cc        0x4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x200000cc                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x200000d4        0x1 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x200000d4                __lock___atexit_recursive_mutex
- *fill*         0x200000d5        0x3 
- .bss.__atexit  0x200000d8        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
-                0x200000d8                __atexit
+                0x200000d0        0x1 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x200000d0                __lock___atexit_recursive_mutex
+ *fill*         0x200000d1        0x3 
+ .bss.__atexit  0x200000d4        0x4 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x200000d4                __atexit
  .bss.__atexit0
-                0x200000dc      0x190 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x200000dc                __atexit0
+                0x200000d8      0x190 E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x200000d8                __atexit0
  *(COMMON)
-                0x2000026c                        . = ALIGN (0x4)
-                0x2000026c                        _ebss = .
-                0x2000026c                        __bss_end__ = _ebss
+                0x20000268                        . = ALIGN (0x4)
+                0x20000268                        _ebss = .
+                0x20000268                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x2000026c      0x604
-                0x20000270                        . = ALIGN (0x8)
- *fill*         0x2000026c        0x4 
+                0x20000268      0x600
+                0x20000268                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x20000270                        PROVIDE (_end = .)
-                0x20000470                        . = (. + _Min_Heap_Size)
- *fill*         0x20000270      0x200 
-                0x20000870                        . = (. + _Min_Stack_Size)
- *fill*         0x20000470      0x400 
-                0x20000870                        . = ALIGN (0x8)
+                0x20000268                        PROVIDE (_end = .)
+                0x20000468                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000268      0x200 
+                0x20000868                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000468      0x400 
+                0x20000868                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1692,37 +1689,37 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
 LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libm.a
 LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xad33
+.debug_info     0x00000000     0xad45
  .debug_info    0x00000000      0x4ce CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x000004ce      0x647 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000b15      0x9aa CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x000014bf      0x265 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x00001724      0x11c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x00001840      0x334 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00001b74      0x97b CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x000024ef       0x30 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
- .debug_info    0x0000251f      0x9e2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00002f01      0xff5 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00003ef6      0x704 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x000045fa      0xa6d CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x00005067     0x1ccc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_info    0x00006d33     0x4000 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x000004ce      0x659 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000b27      0x9aa CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x000014d1      0x265 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00001736      0x11c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00001852      0x334 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00001b86      0x97b CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00002501       0x30 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+ .debug_info    0x00002531      0x9e2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00002f13      0xff5 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x00003f08      0x704 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x0000460c      0xa6d CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x00005079     0x1ccc CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_info    0x00006d45     0x4000 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
-.debug_abbrev   0x00000000     0x1a7e
+.debug_abbrev   0x00000000     0x1a6c
  .debug_abbrev  0x00000000      0x164 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000164      0x21a CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000037e      0x218 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
- .debug_abbrev  0x00000596       0xd6 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x0000066c       0x7c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x000006e8      0x120 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x00000808      0x217 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x00000a1f       0x24 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
- .debug_abbrev  0x00000a43      0x240 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x00000c83      0x391 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x00001014      0x202 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00001216      0x2c7 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x000014dd      0x272 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_abbrev  0x0000174f      0x32f CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x00000164      0x208 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000036c      0x218 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+ .debug_abbrev  0x00000584       0xd6 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x0000065a       0x7c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x000006d6      0x120 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x000007f6      0x217 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00000a0d       0x24 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+ .debug_abbrev  0x00000a31      0x240 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x00000c71      0x391 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001002      0x202 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001204      0x2c7 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x000014cb      0x272 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_abbrev  0x0000173d      0x32f CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 .debug_aranges  0x00000000      0x820
  .debug_aranges
@@ -1785,26 +1782,26 @@ LOAD E:/Toolchain/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  .debug_rnglists
                 0x0000047d      0x1a1 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
-.debug_line     0x00000000     0x932a
+.debug_line     0x00000000     0x9319
  .debug_line    0x00000000      0x2b6 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x000002b6      0x44d CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00000703      0x3c2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x00000ac5      0x1dd CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000ca2      0x199 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x00000e3b      0x2a4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x000010df      0x3a7 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x00001486       0x7a CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
- .debug_line    0x00001500      0x649 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00001b49      0x90c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00002455      0x7a9 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00002bfe      0xc72 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00003870     0x251b CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x00005d8b     0x359f CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x000002b6      0x43c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000006f2      0x3c2 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x00000ab4      0x1dd CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000c91      0x199 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000e2a      0x2a4 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x000010ce      0x3a7 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x00001475       0x7a CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Startup/startup_stm32f407vetx.s.obj
+ .debug_line    0x000014ef      0x649 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00001b38      0x90c CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00002444      0x7a9 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00002bed      0xc72 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000385f     0x251b CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_line    0x00005d7a     0x359f CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 .debug_str      0x00000000     0x2ae8
  .debug_str     0x00000000     0x2ae8 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/gpio.c.obj
                                 0x3be (size before relaxing)
- .debug_str     0x00002ae8      0x552 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
+ .debug_str     0x00002ae8      0x556 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/main.c.obj
  .debug_str     0x00002ae8      0x84b CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/spi.c.obj
  .debug_str     0x00002ae8      0x2ff CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_str     0x00002ae8      0x273 CMakeFiles/CLion_LED_USART_SH1106.elf.dir/Core/Src/stm32f4xx_it.c.obj
