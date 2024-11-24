@@ -23,7 +23,4 @@
       </profile-state>
     </entry>
   </component>
-  <component name="com.jetbrains.cidr.lang.workspace.compiler.custom.CustomCompilerService">
-    <option name="enabled" value="true" />
-  </component>
 </project>
