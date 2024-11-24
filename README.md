@@ -18,7 +18,7 @@
 # chips and peripherals 
 - stm32f407vet6
 - cmsis-dap
-- sh1106 0.96'' oled
+- sh1106 0.96'' OLED
 - onboard led linked to pc0
 
 # where is the driver for sh1106
