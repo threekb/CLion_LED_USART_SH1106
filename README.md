@@ -23,3 +23,6 @@
 
 # where is the driver for sh1106
 - [this is the link](https://github.com/afiskon/stm32-ssd1306)
+> Maybe you will find the driver for sh1106 in my project is not the completely same 
+as the one I provided in the link above, that is because I only modified the function name such as `SSD1306_Init()` to
+`SH1106_Init()`, and that is all I modified. Hope this will not annoy you.
