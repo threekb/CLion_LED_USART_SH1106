@@ -1,5 +1,4 @@
-#ifndef NYANCAT_H
-#define NYANCAT_H
+#pragma once
 // 一共15帧显示Nyan Cat
 const unsigned char nyan_cat_00[] = {
     0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
@@ -994,4 +993,4 @@ const unsigned char *nyanCat[] = {nyan_cat_00, nyan_cat_01, nyan_cat_02, nyan_ca
                                   nyan_cat_05, nyan_cat_06, nyan_cat_07, nyan_cat_08, nyan_cat_09,
                                   nyan_cat_10, nyan_cat_11, nyan_cat_12, nyan_cat_13, nyan_cat_14};
 
-#endif
+
