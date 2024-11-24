@@ -1,3 +1,0 @@
-C:/Users/Admin/Desktop/CLion_LED_USART_SH1106/cmake-build-mingw_stm32/CMakeFiles/CLion_LED_USART_SH1106.elf.dir
-C:/Users/Admin/Desktop/CLion_LED_USART_SH1106/cmake-build-mingw_stm32/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Desktop/CLion_LED_USART_SH1106/cmake-build-mingw_stm32/CMakeFiles/rebuild_cache.dir

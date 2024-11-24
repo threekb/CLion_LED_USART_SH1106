@@ -18,13 +18,19 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+
+#include "gpio.h"
 #include "spi.h"
 #include "usart.h"
-#include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 
+#include "bitmap_chiikawa.h"
+#include "sh1106_conf.h"
+#include "sh1106_fonts.h"
+#include "sh1106.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -91,15 +97,21 @@ int main(void)
   MX_SPI1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  SH1106_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+    for (uint8_t i = 0; i < chiikawaallArray_LEN; i++)
+  {
+    SH1106_Fill(Black);
+    SH1106_DrawBitmap(0, 0, chiikawaallArray[i], 128, 64, White);
     HAL_Delay(50);
+    SH1106_UpdateScreen();
+    printf("this is the NO. %d frame\r\n", i);
+  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
