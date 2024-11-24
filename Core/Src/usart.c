@@ -110,6 +110,8 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 }
 
 /* USER CODE BEGIN 1 */
+
+// for printf function
 int _write (int fd, char *pBuffer, int size)
 {
   for (int i = 0; i < size; i++)
